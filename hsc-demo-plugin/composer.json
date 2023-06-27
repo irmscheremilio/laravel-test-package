@@ -1,0 +1,24 @@
+{
+    "name": "hsc/hsc-demo-plugin",
+    "description": "Demo Plugin for hscERP Webapp",
+    "autoload": {
+        "psr-4": {
+            "hsc\\hsc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emilio",
+            "email": "irmscheremilio@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "hsc\\hsc\\HscDemoServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
